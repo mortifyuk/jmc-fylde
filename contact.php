@@ -6,8 +6,8 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     exit;
 }
 
-$to = 'REPLACE-WITH-JMC-EMAIL';
-if ($to === 'REPLACE-WITH-JMC-EMAIL' || !filter_var($to, FILTER_VALIDATE_EMAIL)) {
+$to = 'jmcfyldepm@outlook.com';
+if (!filter_var($to, FILTER_VALIDATE_EMAIL)) {
     http_response_code(503);
     echo '<!doctype html><html lang="en-GB"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Enquiries temporarily unavailable</title><body style="font-family:Arial,sans-serif;max-width:680px;margin:60px auto;padding:0 20px;line-height:1.6"><h1>Enquiries are not configured yet</h1><p>The website owner needs to add the correct JMC business email address to the contact form settings before messages can be delivered.</p><p><a href="/contact/">Return to contact page</a></p></body></html>';
     exit;

@@ -1,14 +1,10 @@
 JMC FYLDE WEBSITE — PRE-LAUNCH CHECKLIST
 
-[ ] Confirm property count (client document says “in excess of 60”; old staging copy said “around 59”).
 [ ] Confirm service availability and exact scope for full management, tenant find/let only, short-term lets, compliance and licensing.
 [ ] Confirm all areas covered.
-[ ] Add approved JMC business email in contact.php.
+[ ] Check actual cookie and similar technology use on the hosted site; add a consent mechanism before any non-essential technologies run.
 [ ] Test contact form delivery on the actual hosting server.
-[ ] Add approved phone number, email address and any social links if the client supplies them.
-[ ] Add a privacy notice and any required data-protection wording for enquiry forms.
-[ ] Replace remote stock photos with approved JMC photography if available.
 [ ] Check the site on mobile and desktop.
-[ ] Test every navigation link and contact form.
+[ ] Test every navigation, policy and fee link and the contact form.
 [ ] Back up current staging/live files before deployment.
 [ ] Publish only after client approval.
